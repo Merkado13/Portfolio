@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+
 }
 
 #hero h1 {
@@ -285,7 +286,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .section-title h2 {
@@ -431,7 +432,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   color: #050d18;
 }
