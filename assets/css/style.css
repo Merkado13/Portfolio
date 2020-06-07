@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+
 }
 
 #hero h1 {
@@ -285,7 +286,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .section-title h2 {
@@ -431,7 +432,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   color: #050d18;
 }
@@ -533,7 +534,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 0;
   right: 0;
@@ -548,7 +549,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -100%;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -562,7 +563,18 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 80%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #111;
+  bottom : 100%;
+  position: absolute;
+  width: 80%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -572,6 +584,8 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
 }
+
+
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -969,11 +983,13 @@ section {
 .portfolio-details .portfolio-details-carousel {
   position: relative;
   z-index: 1;
+  margin: 0 auto
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
-  text-align: left;
+  text-align: center;
+  
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
